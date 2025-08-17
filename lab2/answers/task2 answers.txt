@@ -1,0 +1,24 @@
+Q1. What happens when the number of hidden nodes increase?
+Answer:
+
+When the number of hidden nodes increases, the model gains more capacity to capture complex patterns in the data.
+
+With very few nodes, the model underfits because it cannot represent the complex flower-shaped decision boundary.
+
+As hidden nodes increase, the accuracy improves, and the decision boundary becomes more flexible.
+
+However, if too many hidden nodes are used, the model may overfit the training data — meaning it memorizes instead of generalizing.
+
+
+Q2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+Answer:
+
+At first, with very few hidden nodes, the accuracy is low because the model is too simple (underfitting).
+
+As hidden nodes increase, the accuracy rises, since the model learns the non-linear patterns better.
+
+After a certain point, the accuracy plateaus — adding more hidden nodes no longer gives big improvements.
+
+If hidden nodes are made very large, the model may overfit: training accuracy stays high, but test accuracy may stop improving or even drop slightly.
+
+So, the accuracy pattern typically follows a curve: low → improving → plateau → possible overfitting as hidden nodes increase.
